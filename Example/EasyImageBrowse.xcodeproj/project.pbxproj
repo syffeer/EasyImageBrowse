@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D453CA1E5475CC0067FD22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D453C91E5475CC0067FD22 /* main.m */; };
+		02D453CD1E5475CC0067FD22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D453CC1E5475CC0067FD22 /* AppDelegate.m */; };
+		02D453D01E5475CC0067FD22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D453CF1E5475CC0067FD22 /* ViewController.m */; };
+		02D453D31E5475CC0067FD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D11E5475CC0067FD22 /* Main.storyboard */; };
+		02D453D51E5475CC0067FD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D41E5475CC0067FD22 /* Assets.xcassets */; };
+		02D453D81E5475CC0067FD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D61E5475CC0067FD22 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D453DF1E5475CC0067FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D453BD1E5475CB0067FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D453C41E5475CC0067FD22;
+			remoteInfo = EasyImageBrowse;
+		};
+		02D453EA1E5475CC0067FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D453BD1E5475CB0067FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D453C41E5475CC0067FD22;
+			remoteInfo = EasyImageBrowse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D453C51E5475CC0067FD22 /* EasyImageBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyImageBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D453C91E5475CC0067FD22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02D453CB1E5475CC0067FD22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02D453CC1E5475CC0067FD22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02D453CE1E5475CC0067FD22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02D453CF1E5475CC0067FD22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02D453D21E5475CC0067FD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02D453D41E5475CC0067FD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02D453D71E5475CC0067FD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02D453D91E5475CC0067FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D453DE1E5475CC0067FD22 /* EasyImageBrowseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageBrowseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D453E91E5475CC0067FD22 /* EasyImageBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D453C21E5475CC0067FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453DB1E5475CC0067FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453E61E5475CC0067FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D453BC1E5475CB0067FD22 = {
+			isa = PBXGroup;
+			children = (
+				02D453C71E5475CC0067FD22 /* EasyImageBrowse */,
+				02D453C61E5475CC0067FD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D453C61E5475CC0067FD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D453C51E5475CC0067FD22 /* EasyImageBrowse.app */,
+				02D453DE1E5475CC0067FD22 /* EasyImageBrowseTests.xctest */,
+				02D453E91E5475CC0067FD22 /* EasyImageBrowseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D453C71E5475CC0067FD22 /* EasyImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				02D453CB1E5475CC0067FD22 /* AppDelegate.h */,
+				02D453CC1E5475CC0067FD22 /* AppDelegate.m */,
+				02D453CE1E5475CC0067FD22 /* ViewController.h */,
+				02D453CF1E5475CC0067FD22 /* ViewController.m */,
+				02D453D11E5475CC0067FD22 /* Main.storyboard */,
+				02D453D41E5475CC0067FD22 /* Assets.xcassets */,
+				02D453D61E5475CC0067FD22 /* LaunchScreen.storyboard */,
+				02D453D91E5475CC0067FD22 /* Info.plist */,
+				02D453C81E5475CC0067FD22 /* Supporting Files */,
+			);
+			path = EasyImageBrowse;
+			sourceTree = "<group>";
+		};
+		02D453C81E5475CC0067FD22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02D453C91E5475CC0067FD22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D453C41E5475CC0067FD22 /* EasyImageBrowse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D453F21E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowse" */;
+			buildPhases = (
+				02D453C11E5475CC0067FD22 /* Sources */,
+				02D453C21E5475CC0067FD22 /* Frameworks */,
+				02D453C31E5475CC0067FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyImageBrowse;
+			productName = EasyImageBrowse;
+			productReference = 02D453C51E5475CC0067FD22 /* EasyImageBrowse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D453DD1E5475CC0067FD22 /* EasyImageBrowseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D453F51E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowseTests" */;
+			buildPhases = (
+				02D453DA1E5475CC0067FD22 /* Sources */,
+				02D453DB1E5475CC0067FD22 /* Frameworks */,
+				02D453DC1E5475CC0067FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D453E01E5475CC0067FD22 /* PBXTargetDependency */,
+			);
+			name = EasyImageBrowseTests;
+			productName = EasyImageBrowseTests;
+			productReference = 02D453DE1E5475CC0067FD22 /* EasyImageBrowseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02D453E81E5475CC0067FD22 /* EasyImageBrowseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D453F81E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowseUITests" */;
+			buildPhases = (
+				02D453E51E5475CC0067FD22 /* Sources */,
+				02D453E61E5475CC0067FD22 /* Frameworks */,
+				02D453E71E5475CC0067FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D453EB1E5475CC0067FD22 /* PBXTargetDependency */,
+			);
+			name = EasyImageBrowseUITests;
+			productName = EasyImageBrowseUITests;
+			productReference = 02D453E91E5475CC0067FD22 /* EasyImageBrowseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D453BD1E5475CB0067FD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.cfd.SaturnEasyTool;
+				TargetAttributes = {
+					02D453C41E5475CC0067FD22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LFGQXWSCND;
+						ProvisioningStyle = Automatic;
+					};
+					02D453DD1E5475CC0067FD22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LFGQXWSCND;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02D453C41E5475CC0067FD22;
+					};
+					02D453E81E5475CC0067FD22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LFGQXWSCND;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02D453C41E5475CC0067FD22;
+					};
+				};
+			};
+			buildConfigurationList = 02D453C01E5475CB0067FD22 /* Build configuration list for PBXProject "EasyImageBrowse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D453BC1E5475CB0067FD22;
+			productRefGroup = 02D453C61E5475CC0067FD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D453C41E5475CC0067FD22 /* EasyImageBrowse */,
+				02D453DD1E5475CC0067FD22 /* EasyImageBrowseTests */,
+				02D453E81E5475CC0067FD22 /* EasyImageBrowseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D453C31E5475CC0067FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D453D81E5475CC0067FD22 /* LaunchScreen.storyboard in Resources */,
+				02D453D51E5475CC0067FD22 /* Assets.xcassets in Resources */,
+				02D453D31E5475CC0067FD22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453DC1E5475CC0067FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453E71E5475CC0067FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D453C11E5475CC0067FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D453D01E5475CC0067FD22 /* ViewController.m in Sources */,
+				02D453CD1E5475CC0067FD22 /* AppDelegate.m in Sources */,
+				02D453CA1E5475CC0067FD22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453DA1E5475CC0067FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D453E51E5475CC0067FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D453E01E5475CC0067FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D453C41E5475CC0067FD22 /* EasyImageBrowse */;
+			targetProxy = 02D453DF1E5475CC0067FD22 /* PBXContainerItemProxy */;
+		};
+		02D453EB1E5475CC0067FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D453C41E5475CC0067FD22 /* EasyImageBrowse */;
+			targetProxy = 02D453EA1E5475CC0067FD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02D453D11E5475CC0067FD22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D453D21E5475CC0067FD22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02D453D61E5475CC0067FD22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D453D71E5475CC0067FD22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02D453F01E5475CC0067FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D453F11E5475CC0067FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D453F31E5475CC0067FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02D453F41E5475CC0067FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02D453F61E5475CC0067FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyImageBrowse.app/EasyImageBrowse";
+			};
+			name = Debug;
+		};
+		02D453F71E5475CC0067FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyImageBrowse.app/EasyImageBrowse";
+			};
+			name = Release;
+		};
+		02D453F91E5475CC0067FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyImageBrowse;
+			};
+			name = Debug;
+		};
+		02D453FA1E5475CC0067FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LFGQXWSCND;
+				INFOPLIST_FILE = EasyImageBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyImageBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyImageBrowse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D453C01E5475CB0067FD22 /* Build configuration list for PBXProject "EasyImageBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D453F01E5475CC0067FD22 /* Debug */,
+				02D453F11E5475CC0067FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D453F21E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D453F31E5475CC0067FD22 /* Debug */,
+				02D453F41E5475CC0067FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D453F51E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D453F61E5475CC0067FD22 /* Debug */,
+				02D453F71E5475CC0067FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D453F81E5475CC0067FD22 /* Build configuration list for PBXNativeTarget "EasyImageBrowseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D453F91E5475CC0067FD22 /* Debug */,
+				02D453FA1E5475CC0067FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D453BD1E5475CB0067FD22 /* Project object */;
+}
