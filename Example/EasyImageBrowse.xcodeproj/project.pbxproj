@@ -13,6 +13,9 @@
 		02D453D31E5475CC0067FD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D11E5475CC0067FD22 /* Main.storyboard */; };
 		02D453D51E5475CC0067FD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D41E5475CC0067FD22 /* Assets.xcassets */; };
 		02D453D81E5475CC0067FD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D453D61E5475CC0067FD22 /* LaunchScreen.storyboard */; };
+		2BF0EECB1E549E8B00227DC6 /* EYPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0EECA1E549E8B00227DC6 /* EYPhotoManger.m */; };
+		2BF0EECE1E54A40E00227DC6 /* UIImage+ImageID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0EECD1E54A40E00227DC6 /* UIImage+ImageID.m */; };
+		2BF0EED11E54A6C200227DC6 /* EZPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0EED01E54A6C200227DC6 /* EZPhotoBrowseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		02D453D91E5475CC0067FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02D453DE1E5475CC0067FD22 /* EasyImageBrowseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageBrowseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D453E91E5475CC0067FD22 /* EasyImageBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF0EEC91E549E8B00227DC6 /* EYPhotoManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYPhotoManger.h; sourceTree = "<group>"; };
+		2BF0EECA1E549E8B00227DC6 /* EYPhotoManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYPhotoManger.m; sourceTree = "<group>"; };
+		2BF0EECC1E54A40E00227DC6 /* UIImage+ImageID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageID.h"; sourceTree = "<group>"; };
+		2BF0EECD1E54A40E00227DC6 /* UIImage+ImageID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageID.m"; sourceTree = "<group>"; };
+		2BF0EECF1E54A6C200227DC6 /* EZPhotoBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPhotoBrowseController.h; sourceTree = "<group>"; };
+		2BF0EED01E54A6C200227DC6 /* EZPhotoBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPhotoBrowseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,7 @@
 		02D453C71E5475CC0067FD22 /* EasyImageBrowse */ = {
 			isa = PBXGroup;
 			children = (
+				2BF0EEC81E549D9800227DC6 /* EasyImageBrowse */,
 				02D453CB1E5475CC0067FD22 /* AppDelegate.h */,
 				02D453CC1E5475CC0067FD22 /* AppDelegate.m */,
 				02D453CE1E5475CC0067FD22 /* ViewController.h */,
@@ -112,6 +122,19 @@
 				02D453C91E5475CC0067FD22 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BF0EEC81E549D9800227DC6 /* EasyImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0EEC91E549E8B00227DC6 /* EYPhotoManger.h */,
+				2BF0EECA1E549E8B00227DC6 /* EYPhotoManger.m */,
+				2BF0EECC1E54A40E00227DC6 /* UIImage+ImageID.h */,
+				2BF0EECD1E54A40E00227DC6 /* UIImage+ImageID.m */,
+				2BF0EECF1E54A6C200227DC6 /* EZPhotoBrowseController.h */,
+				2BF0EED01E54A6C200227DC6 /* EZPhotoBrowseController.m */,
+			);
+			path = EasyImageBrowse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF0EECB1E549E8B00227DC6 /* EYPhotoManger.m in Sources */,
 				02D453D01E5475CC0067FD22 /* ViewController.m in Sources */,
 				02D453CD1E5475CC0067FD22 /* AppDelegate.m in Sources */,
 				02D453CA1E5475CC0067FD22 /* main.m in Sources */,
+				2BF0EECE1E54A40E00227DC6 /* UIImage+ImageID.m in Sources */,
+				2BF0EED11E54A6C200227DC6 /* EZPhotoBrowseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
