@@ -16,5 +16,4 @@
 @property (nonatomic, assign) NSInteger maxCount;
 @property (nonatomic, weak) id<FJPhotoSelectDelegate> delegate;
 + (instancetype)photoBrowseWithImageArr:(NSArray <UIImage *>*)photoModels;
-- (void)reloadImageArr:(NSArray <UIImage *>*)photoModels;
 @end
