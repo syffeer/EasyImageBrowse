@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  EasyImageBrowse
+//  EasyBrowseDome
 //
-//  Created by mofang2 on 17/2/15.
+//  Created by mofang2 on 17/2/16.
 //  Copyright © 2017年 com.cfd.SaturnEasyTool. All rights reserved.
 //
 
