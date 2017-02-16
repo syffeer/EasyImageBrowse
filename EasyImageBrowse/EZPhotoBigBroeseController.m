@@ -84,7 +84,7 @@ static NSString *cellIdf = @"BrowseCellIdef";
 }
 
 #pragma mark - EZPhotoBigBroeseCellDelegate
-- (void)FJPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd{
+- (void)EZPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd{
     if (needAdd) {
         [self.imageArr addObject:image];
     }else{
