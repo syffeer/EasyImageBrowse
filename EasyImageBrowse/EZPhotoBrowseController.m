@@ -51,7 +51,6 @@
                             if (obj == [_listModel firstObject]) {
                                 [self.collectView reloadData];
                             }
-                            
                         });
                     }];
                     
