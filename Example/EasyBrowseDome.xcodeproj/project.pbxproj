@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028835F61E555494008D0CFC /* EZPhotoBigBroeseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028835F51E555494008D0CFC /* EZPhotoBigBroeseController.m */; };
+		028835F91E555CB0008D0CFC /* EZPhotoBigBroeseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 028835F81E555CB0008D0CFC /* EZPhotoBigBroeseCell.m */; };
+		028835FC1E557B4A008D0CFC /* EZAblumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028835FB1E557B4A008D0CFC /* EZAblumeView.m */; };
 		02D4540A1E5534330067FD22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D454091E5534330067FD22 /* main.m */; };
 		02D4540D1E5534330067FD22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4540C1E5534330067FD22 /* AppDelegate.m */; };
 		02D454101E5534330067FD22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4540F1E5534330067FD22 /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		02D454181E5534330067FD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D454161E5534330067FD22 /* LaunchScreen.storyboard */; };
 		02D454231E5534330067FD22 /* EasyBrowseDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D454221E5534330067FD22 /* EasyBrowseDomeTests.m */; };
 		02D4542E1E5534330067FD22 /* EasyBrowseDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4542D1E5534330067FD22 /* EasyBrowseDomeUITests.m */; };
+		02D454421E5534970067FD22 /* EYPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4543D1E5534970067FD22 /* EYPhotoManger.m */; };
+		02D454431E5534970067FD22 /* EZPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4543F1E5534970067FD22 /* EZPhotoBrowseController.m */; };
+		02D454441E5534970067FD22 /* UIImage+ImageID.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D454411E5534970067FD22 /* UIImage+ImageID.m */; };
+		02D454471E5535460067FD22 /* EZPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D454461E5535460067FD22 /* EZPhotoBrowseCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028835F41E555494008D0CFC /* EZPhotoBigBroeseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPhotoBigBroeseController.h; sourceTree = "<group>"; };
+		028835F51E555494008D0CFC /* EZPhotoBigBroeseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPhotoBigBroeseController.m; sourceTree = "<group>"; };
+		028835F71E555CB0008D0CFC /* EZPhotoBigBroeseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPhotoBigBroeseCell.h; sourceTree = "<group>"; };
+		028835F81E555CB0008D0CFC /* EZPhotoBigBroeseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPhotoBigBroeseCell.m; sourceTree = "<group>"; };
+		028835FA1E557B4A008D0CFC /* EZAblumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAblumeView.h; sourceTree = "<group>"; };
+		028835FB1E557B4A008D0CFC /* EZAblumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAblumeView.m; sourceTree = "<group>"; };
 		02D454051E5534330067FD22 /* EasyBrowseDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyBrowseDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D454091E5534330067FD22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02D4540B1E5534330067FD22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,14 @@
 		02D454291E5534330067FD22 /* EasyBrowseDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyBrowseDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D4542D1E5534330067FD22 /* EasyBrowseDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyBrowseDomeUITests.m; sourceTree = "<group>"; };
 		02D4542F1E5534330067FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D4543C1E5534970067FD22 /* EYPhotoManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYPhotoManger.h; sourceTree = "<group>"; };
+		02D4543D1E5534970067FD22 /* EYPhotoManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYPhotoManger.m; sourceTree = "<group>"; };
+		02D4543E1E5534970067FD22 /* EZPhotoBrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPhotoBrowseController.h; sourceTree = "<group>"; };
+		02D4543F1E5534970067FD22 /* EZPhotoBrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPhotoBrowseController.m; sourceTree = "<group>"; };
+		02D454401E5534970067FD22 /* UIImage+ImageID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageID.h"; sourceTree = "<group>"; };
+		02D454411E5534970067FD22 /* UIImage+ImageID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageID.m"; sourceTree = "<group>"; };
+		02D454451E5535460067FD22 /* EZPhotoBrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPhotoBrowseCell.h; sourceTree = "<group>"; };
+		02D454461E5535460067FD22 /* EZPhotoBrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPhotoBrowseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		02D454071E5534330067FD22 /* EasyBrowseDome */ = {
 			isa = PBXGroup;
 			children = (
+				02D4543B1E5534970067FD22 /* EasyImageBrowse */,
 				02D4540B1E5534330067FD22 /* AppDelegate.h */,
 				02D4540C1E5534330067FD22 /* AppDelegate.m */,
 				02D4540E1E5534330067FD22 /* ViewController.h */,
@@ -138,6 +160,27 @@
 				02D4542F1E5534330067FD22 /* Info.plist */,
 			);
 			path = EasyBrowseDomeUITests;
+			sourceTree = "<group>";
+		};
+		02D4543B1E5534970067FD22 /* EasyImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				02D4543C1E5534970067FD22 /* EYPhotoManger.h */,
+				02D4543D1E5534970067FD22 /* EYPhotoManger.m */,
+				02D4543E1E5534970067FD22 /* EZPhotoBrowseController.h */,
+				02D4543F1E5534970067FD22 /* EZPhotoBrowseController.m */,
+				02D454401E5534970067FD22 /* UIImage+ImageID.h */,
+				02D454411E5534970067FD22 /* UIImage+ImageID.m */,
+				02D454451E5535460067FD22 /* EZPhotoBrowseCell.h */,
+				02D454461E5535460067FD22 /* EZPhotoBrowseCell.m */,
+				028835F41E555494008D0CFC /* EZPhotoBigBroeseController.h */,
+				028835F51E555494008D0CFC /* EZPhotoBigBroeseController.m */,
+				028835F71E555CB0008D0CFC /* EZPhotoBigBroeseCell.h */,
+				028835F81E555CB0008D0CFC /* EZPhotoBigBroeseCell.m */,
+				028835FA1E557B4A008D0CFC /* EZAblumeView.h */,
+				028835FB1E557B4A008D0CFC /* EZAblumeView.m */,
+			);
+			path = EasyImageBrowse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D454471E5535460067FD22 /* EZPhotoBrowseCell.m in Sources */,
+				028835F91E555CB0008D0CFC /* EZPhotoBigBroeseCell.m in Sources */,
+				02D454421E5534970067FD22 /* EYPhotoManger.m in Sources */,
 				02D454101E5534330067FD22 /* ViewController.m in Sources */,
+				02D454431E5534970067FD22 /* EZPhotoBrowseController.m in Sources */,
 				02D4540D1E5534330067FD22 /* AppDelegate.m in Sources */,
+				02D454441E5534970067FD22 /* UIImage+ImageID.m in Sources */,
+				028835FC1E557B4A008D0CFC /* EZAblumeView.m in Sources */,
+				028835F61E555494008D0CFC /* EZPhotoBigBroeseController.m in Sources */,
 				02D4540A1E5534330067FD22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LFGQXWSCND;
 				INFOPLIST_FILE = EasyBrowseDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyBrowseDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LFGQXWSCND;
 				INFOPLIST_FILE = EasyBrowseDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cfd.SaturnEasyTool.EasyBrowseDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +568,7 @@
 				02D454341E5534330067FD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D454351E5534330067FD22 /* Build configuration list for PBXNativeTarget "EasyBrowseDomeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +577,7 @@
 				02D454371E5534330067FD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D454381E5534330067FD22 /* Build configuration list for PBXNativeTarget "EasyBrowseDomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +586,7 @@
 				02D4543A1E5534330067FD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
