@@ -93,6 +93,7 @@
 		02D453C71E5475CC0067FD22 /* EasyImageBrowse */ = {
 			isa = PBXGroup;
 			children = (
+				02D453FB1E5476E30067FD22 /* EasyImageBrowse */,
 				02D453CB1E5475CC0067FD22 /* AppDelegate.h */,
 				02D453CC1E5475CC0067FD22 /* AppDelegate.m */,
 				02D453CE1E5475CC0067FD22 /* ViewController.h */,
@@ -112,6 +113,13 @@
 				02D453C91E5475CC0067FD22 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02D453FB1E5476E30067FD22 /* EasyImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EasyImageBrowse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
