@@ -128,11 +128,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		02D453FB1E5476E30067FD22 /* EasyImageBrowse */ = {
 			isa = PBXGroup;
 			children = (
-=======
+
 		2BF0EEC81E549D9800227DC6 /* EasyImageBrowse */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +142,7 @@
 				2BF0EECD1E54A40E00227DC6 /* UIImage+ImageID.m */,
 				2BF0EECF1E54A6C200227DC6 /* EZPhotoBrowseController.h */,
 				2BF0EED01E54A6C200227DC6 /* EZPhotoBrowseController.m */,
->>>>>>> 77f6893791d90a9853fe8deebe9d49da1a70fa2c
+
 			);
 			path = EasyImageBrowse;
 			sourceTree = "<group>";
