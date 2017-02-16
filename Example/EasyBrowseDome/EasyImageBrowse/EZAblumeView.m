@@ -10,7 +10,7 @@
 #define  EZ_HEIGHT [UIScreen mainScreen].bounds.size.height
 #import "EZAblumeView.h"
 #import "EYPhotoManger.h"
-static NSString *cellIDF = @"albumViewCellIdf";
+static NSString *cellIDF = @"albumView";
 @interface EZAlbumViewCell : UITableViewCell
 @property (nonatomic, strong) UIImageView *imgV;
 @property (nonatomic, strong) UILabel *textLab;
