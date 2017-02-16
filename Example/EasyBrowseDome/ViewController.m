@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "EZPhotoBrowseController.h"
-@interface ViewController ()<FJPhotoSelectDelegate>
+@interface ViewController ()<EZPhotoSelectDelegate>
 @property (nonatomic, strong) EZPhotoBrowseController *vc;
 @property (nonatomic, strong) NSArray *arr;
 @property (nonatomic, strong) UINavigationController *nav;
@@ -37,7 +37,7 @@
 
 }
 
-- (void)FJPhotoSelectBackImg:(NSArray <UIImage *>*)photoModels{
+- (void)EZPhotoSelectBackImg:(NSArray <UIImage *>*)photoModels{
     self.arr = photoModels;
 }
 

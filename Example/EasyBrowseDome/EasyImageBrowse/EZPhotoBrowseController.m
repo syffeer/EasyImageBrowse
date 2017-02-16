@@ -14,7 +14,7 @@
 #import "EZPhotoBrowseCell.h"
 #import "UIImage+ImageID.h"
 #import "EZAblumeView.h"
-@interface EZPhotoBrowseController ()<UICollectionViewDelegate,UICollectionViewDataSource,FJPhotoCellDelegate,EZPhotoBigBroeseControllerDelegate,EZAblumeViewDelegate>
+@interface EZPhotoBrowseController ()<UICollectionViewDelegate,UICollectionViewDataSource,EZPhotoCellDelegate,EZPhotoBigBroeseControllerDelegate,EZAblumeViewDelegate>
 @property (nonatomic, strong) UICollectionView *collectView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 @property (nonatomic, strong) NSArray <EYPhotoListModel *>* listModel;
@@ -136,8 +136,8 @@
     }else{
         [self.navigationController dismissViewControllerAnimated:YES completion:nil];
     }
-    if ([self.delegate respondsToSelector:@selector(FJPhotoSelectBackImg:)]) {
-        [self.delegate FJPhotoSelectBackImg:self.imageArr];
+    if ([self.delegate respondsToSelector:@selector(EZPhotoSelectBackImg:)]) {
+        [self.delegate EZPhotoSelectBackImg:self.imageArr];
     }
 }
 
@@ -204,7 +204,7 @@
 
 
 #pragma mark - FJPhotoCellDelegate
-- (void)FJPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd{
+- (void)EZPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd{
     if (needAdd) {
         [self.imageArr addObject:image];
     }else{

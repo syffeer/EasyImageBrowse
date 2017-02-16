@@ -9,14 +9,14 @@
 #import <UIKit/UIKit.h>
 
 #import "EZPhotoBrowseController.h"
-@protocol FJPhotoCellDelegate <NSObject>
-- (void)FJPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd;
+@protocol EZPhotoCellDelegate <NSObject>
+- (void)EZPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd;
 - (BOOL)arrIsfill;
 @end
 
 @interface EZPhotoBrowseCell : UICollectionViewCell
 
-@property (nonatomic, weak) id<FJPhotoCellDelegate> delegate;
+@property (nonatomic, weak) id<EZPhotoCellDelegate> delegate;
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, assign) BOOL selectState;
 @end

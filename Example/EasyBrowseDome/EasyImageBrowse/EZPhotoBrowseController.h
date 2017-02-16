@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol FJPhotoSelectDelegate <NSObject>
+@protocol EZPhotoSelectDelegate <NSObject>
 
-- (void)FJPhotoSelectBackImg:(NSArray <UIImage *>*)photoModels;
+- (void)EZPhotoSelectBackImg:(NSArray <UIImage *>*)photoModels;
 
 @end
 @interface EZPhotoBrowseController : UIViewController
 @property (nonatomic, assign) NSInteger maxCount;
-@property (nonatomic, weak) id<FJPhotoSelectDelegate> delegate;
+@property (nonatomic, weak) id<EZPhotoSelectDelegate> delegate;
 + (instancetype)photoBrowseWithImageArr:(NSArray <UIImage *>*)photoModels;
 @end
