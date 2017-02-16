@@ -56,8 +56,8 @@
     }
     _stateBtn.selected = !_stateBtn.selected ;
     _selectState =  _stateBtn.selected;
-    if ([self.delegate respondsToSelector:@selector(FJPhotoCellDidClick:withNeedAdd:)]) {
-        [self.delegate FJPhotoCellDidClick:self.image withNeedAdd:_selectState];
+    if ([self.delegate respondsToSelector:@selector(EZPhotoCellDidClick:withNeedAdd:)]) {
+        [self.delegate EZPhotoCellDidClick:self.image withNeedAdd:_selectState];
     }
 }
 @end

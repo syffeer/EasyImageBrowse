@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @protocol EZPhotoBigBroeseCellDelegate <NSObject>
-- (void)FJPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd;
+- (void)EZPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd;
 - (BOOL)arrIsfill;
 @end
 

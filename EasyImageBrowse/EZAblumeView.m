@@ -10,8 +10,8 @@
 #define  EZ_HEIGHT [UIScreen mainScreen].bounds.size.height
 #import "EZAblumeView.h"
 #import "EYPhotoManger.h"
-static NSString *cellIDF = @"albumViewCellIdf";
-@interface FJAlbumViewCell : UITableViewCell
+static NSString *cellIDF = @"albumView";
+@interface EZAlbumViewCell : UITableViewCell
 @property (nonatomic, strong) UIImageView *imgV;
 @property (nonatomic, strong) UILabel *textLab;
 @property (nonatomic, strong) UILabel *numberLab;
@@ -19,7 +19,7 @@ static NSString *cellIDF = @"albumViewCellIdf";
 @property (nonatomic, strong) EYPhotoListModel *listModel;
 @end
 
-@implementation FJAlbumViewCell
+@implementation EZAlbumViewCell
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self setUI];
@@ -86,7 +86,7 @@ static NSString *cellIDF = @"albumViewCellIdf";
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [_tableView registerClass:[FJAlbumViewCell class] forCellReuseIdentifier:cellIDF];
+    [_tableView registerClass:[EZAlbumViewCell class] forCellReuseIdentifier:cellIDF];
     [self addSubview:_tableView];
 }
 
@@ -118,7 +118,7 @@ static NSString *cellIDF = @"albumViewCellIdf";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    FJAlbumViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIDF forIndexPath:indexPath];
+    EZAlbumViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIDF forIndexPath:indexPath];
     cell.listModel = self.arrModels[indexPath.row];
     return cell;
 }
