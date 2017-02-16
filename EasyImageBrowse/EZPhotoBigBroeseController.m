@@ -79,6 +79,10 @@ static NSString *cellIdf = @"BrowseCellIdef";
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (void)exitTap{
+    
+}
+
 #pragma mark - EZPhotoBigBroeseCellDelegate
 - (void)FJPhotoCellDidClick:(UIImage *)image withNeedAdd:(BOOL) needAdd{
     if (needAdd) {

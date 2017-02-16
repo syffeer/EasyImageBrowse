@@ -21,10 +21,9 @@ s.platform     = :ios, "8.0"
 
 s.homepage     = "http://www.baidu.com"
 s.license      = "MIT"
-
+  s.ios.deployment_target = '8.0'
 s.source       = { :git => "https://github.com/syffeer/EasyImageBrowse.git", :tag => "0.0.1" }
 s.source_files  = "EasyImageBrowse/**/*.{h,m}"
 s.requires_arc = true
-
-
+s.frameworks = 'Foundation', 'SystemConfiguration'
 end

@@ -51,6 +51,7 @@
                             if (obj == [_listModel firstObject]) {
                                 [self.collectView reloadData];
                             }
+                            
                         });
                     }];
                     
@@ -294,10 +295,10 @@
 
 //申请相机权限
 - (void)CameraAuth:(void(^)(BOOL))finsh{
-     AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
-    if (authStatus == AVAuthorizationStatusAuthorized) {//可以使用
+    AVAuthorizationStatus authstatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+    if (authstatus == AVAuthorizationStatusAuthorized) {//可以使用
         finsh(YES);
-    }else if (authStatus == AVAuthorizationStatusNotDetermined){
+    }else if (authstatus == AVAuthorizationStatusNotDetermined){
         [self AuthorizationCamera:^(BOOL state) {
             finsh(state);
         }];
