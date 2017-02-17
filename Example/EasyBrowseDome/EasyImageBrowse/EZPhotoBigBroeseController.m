@@ -73,8 +73,10 @@ static NSString *cellIdf = @"BrowseCellIdef";
 
 #pragma mark - event method
 - (void)back{
-    if ([self.delegate respondsToSelector:@selector(PhotoBroeseSelectBackImg:)]) {
-        [self.delegate PhotoBroeseSelectBackImg:self.imageArr];
+    if ([self.delegate respondsToSelector:@selector(PhotoBroeseSelectBackImg:withScrollIndex:)]) {
+        NSArray *indexArr = [self.collectView indexPathsForVisibleItems];
+        NSIndexPath *indexPath = [indexArr firstObject];
+        [self.delegate PhotoBroeseSelectBackImg:self.imageArr withScrollIndex:indexPath.row];
     }
     [self.navigationController popViewControllerAnimated:YES];
 }
