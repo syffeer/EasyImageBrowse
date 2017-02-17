@@ -14,7 +14,7 @@
 #import "EZPhotoBrowseCell.h"
 #import "UIImage+ImageID.h"
 #import "EZAblumeView.h"
-@interface EZPhotoBrowseController ()<UICollectionViewDelegate,UICollectionViewDataSource,EZPhotoCellDelegate,EZPhotoBigBroeseControllerDelegate,EZAblumeViewDelegate>
+@interface EZPhotoBrowseController ()<UICollectionViewDelegate,UICollectionViewDataSource,EZPhotoCellDelegate,EZPhotoBigBroeseControllerDelegate,EZAblumeViewDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 @property (nonatomic, strong) UICollectionView *collectView;
 @property (nonatomic, strong) UICollectionViewFlowLayout *flowLayout;
 @property (nonatomic, strong) NSArray <EYPhotoListModel *>* listModel;
@@ -28,6 +28,7 @@
     NSInteger _listIndex;
     BOOL _camerastatus;
     BOOL _isFill;
+    UIImagePickerController *_pick;
 }
 
 + (instancetype)photoBrowseWithImageArr:(NSArray <UIImage *>*)photoModels{
@@ -51,17 +52,14 @@
                             if (obj == [_listModel firstObject]) {
                                 [self.collectView reloadData];
                             }
-                            
                         });
                     }];
-                    
                 });
             }
         }];
         [self CameraAuth:^(BOOL status) {
             _camerastatus = status;
         }];
-        
     }
     return self;
 }
@@ -142,7 +140,12 @@
 }
 
 
-#pragma mark - 
+- (void)backItem{
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+#pragma mark -
 //改变nextBtn状态
 - (void)changeNextBtn{
     NSInteger photoNum = self.imageArr.count;
@@ -193,8 +196,12 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        [self openCamera];
+        return;
+    }
+    
     EYPhotoListModel *listmodel = self.listModel[_listIndex];
-
     EZPhotoBigBroeseController *vc = [EZPhotoBigBroeseController photoBigBroeseWithImageArr:self.imageArr dateArr:listmodel.AssetArry];
     vc.maxCount = self.maxCount;
     vc.ScrollIndex = indexPath.row - 1;
@@ -258,6 +265,42 @@
     }];
     
 }
+
+//打开相机
+- (void)openCamera{
+    if (_isFill) {
+        return;
+    }
+    if (!_camerastatus) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"警告"
+                                                                       message:@"未检测到摄像头"
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
+        [alert addAction:confirm];
+        [self presentViewController:alert animated:YES completion:nil];
+        return;
+    }
+    _pick = [[UIImagePickerController alloc]init];
+    _pick.sourceType = UIImagePickerControllerSourceTypeCamera;
+    _pick.delegate = self;
+    [self presentViewController:_pick animated:YES completion:nil];
+    
+}
+
+//照相
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
+    NSDate *date = [NSDate date];
+    NSDateFormatter *fomatter = [[NSDateFormatter alloc]init];
+    fomatter.dateFormat = @"HH-mm-ss";
+    NSString *key = [fomatter stringFromDate:date];
+    UIImage *image =  info[@"UIImagePickerControllerOriginalImage"];
+    image.imageID = key;
+    [self.imageArr addObject:image];
+    [_pick dismissViewControllerAnimated:YES completion:^{
+    }];
+    [self changeNextBtn];
+}
+
 
 #pragma mark - setter && getter
 - (UICollectionViewFlowLayout *)flowLayout{
