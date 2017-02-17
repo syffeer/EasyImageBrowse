@@ -33,7 +33,7 @@
 + (instancetype)photoBrowseWithImageArr:(NSArray <UIImage *>*)photoModels{
     EZPhotoBrowseController *vc = [[self alloc]init];
     vc.imageArr = [NSMutableArray arrayWithArray:photoModels];
-    vc.view.backgroundColor = [UIColor orangeColor];
+    vc.view.backgroundColor = [UIColor whiteColor];
     return vc;
 }
 
@@ -170,6 +170,7 @@
 
     if (indexPath.row == 0) {
         cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"photo" forIndexPath:indexPath];
+        cell.layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"detail_Commenticon_photo_normal"].CGImage);
         return  cell;
     }else{
         EYPhotoListModel *listmodel = self.listModel[_listIndex];
