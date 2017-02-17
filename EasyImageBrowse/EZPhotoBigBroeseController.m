@@ -140,8 +140,9 @@ static NSString *cellIdf = @"BrowseCellIdef";
         _flowLayout.minimumLineSpacing = 0;
         _flowLayout.minimumInteritemSpacing = 0;
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        _flowLayout.itemSize = self.view.bounds.size;
+        _flowLayout.itemSize = CGSizeMake(EZ_WIDTH, EZ_HEIGHT - 64);
     }
     return _flowLayout;
 }
+
 @end
