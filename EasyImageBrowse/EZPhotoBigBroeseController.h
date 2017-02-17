@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol EZPhotoBigBroeseControllerDelegate <NSObject>
-- (void)PhotoBroeseSelectBackImg:(NSArray <UIImage *>*)photoModels;
+- (void)PhotoBroeseSelectBackImg:(NSArray <UIImage *>*)photoModels withScrollIndex:(NSInteger)index;
 @end
 
 @interface EZPhotoBigBroeseController : UIViewController

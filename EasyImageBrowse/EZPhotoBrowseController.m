@@ -240,8 +240,9 @@
 
 
 #pragma mark - EZPhotoBigBroeseControllerDelegate
-- (void)PhotoBroeseSelectBackImg:(NSArray <UIImage *>*)photoModels{
+- (void)PhotoBroeseSelectBackImg:(NSArray <UIImage *>*)photoModels withScrollIndex:(NSInteger)index{
     self.imageArr = [NSMutableArray arrayWithArray:photoModels];
+    [self.collectView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredVertically animated:NO];
     [self.collectView reloadData];
       [self changeNextBtn];
     if (self.imageArr.count >= self.maxCount) {
