@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "EYPhotoManger.h"
 @interface EasyBrowseDomeTests : XCTestCase
 
 @end
@@ -27,6 +27,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSArray *arr = [[EYPhotoManger share] getAllPhotoList];
+    XCTAssertNotNil(arr);
+    
 }
 
 - (void)testPerformanceExample {

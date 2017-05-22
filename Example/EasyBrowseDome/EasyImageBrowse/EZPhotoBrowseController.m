@@ -105,7 +105,7 @@
     [_titleBtn setImage:[UIImage imageNamed:@"circles_release_albumchange_normal"] forState:UIControlStateNormal];
     [_titleBtn setImage:[UIImage imageNamed:@"circles_release_albumchange_click"] forState:UIControlStateSelected];
     [_titleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [_titleBtn setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+    [_titleBtn setTitleColor:[UIColor colorWithRed:224 green:0 blue:64 alpha:1] forState:UIControlStateSelected];
     self.navigationItem.titleView = _titleBtn;
     _titleBtn.imageView.clipsToBounds = YES;
     [_titleBtn addTarget:self action:@selector(albSHow:) forControlEvents:UIControlEventTouchUpInside];
@@ -356,7 +356,6 @@
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         finsh(status);
     }];
-    
 }
 
 //申请照相权限
